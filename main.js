@@ -9,7 +9,7 @@ weatherForm.addEventListener("submit", async event => {
 
     event.preventDefault();
 
-    const city = cityInput.value;
+    const city = cityInput.value.trim();
 
     if(city){
         try{
